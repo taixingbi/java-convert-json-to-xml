@@ -22,7 +22,7 @@ public class ArrayXML {
     }
 
     public static void ListObjctToXML(List<User> users) {
-        String xml= null;
+        String xml= "";
         String xmlDeclaration ="<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
         String rootElement= "MarketplaceInventoryImportData";
         String arrayElement= "Item";
